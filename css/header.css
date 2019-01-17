@@ -1,0 +1,36 @@
+.screen-header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+.screen-header .header-top {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.screen-header .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+}
+
+.header-bottom .header-bottom__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-bottom .header-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-bottom .header-column__icon {
+  padding: 0 10px;
+  font-size: 23px;
+}

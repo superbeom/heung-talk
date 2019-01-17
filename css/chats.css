@@ -1,0 +1,12 @@
+.header-bottom .comment-plus {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.comment-plus .fa-plus {
+  position: absolute;
+  font-size: 15px;
+  /* right: -5px;
+  top: 7px; */
+}

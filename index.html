@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Friends</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css\style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet" />
+    <title>Friends</title>
   </head>
   <body>
     <header class="screen-header">
@@ -20,22 +21,32 @@
         <span>10:38</span>
       </div>
       <div class="header-bottom">
-        <div class="header-column"><span>친구</span></div>
         <div class="header-column">
-          <i class="fa fa-search"></i> <i class="fa fa-user-plus"></i>
-          <i class="fa fa-cog"></i>
+          <span class="header-bottom__title">친구</span>
+        </div>
+        <div class="header-column">
+          <div class="header-column__icon"><i class="fa fa-search"> </i></div>
+          <div class="header-column__icon">
+            <i class="fa fa-user-plus"> </i>
+          </div>
+          <div class="header-column__icon"><i class="fa fa-cog"> </i></div>
         </div>
       </div>
     </header>
     <main class="friends">
-      <header class="friends--by"><img src="" /> <span>전수범</span></header>
-      <section class="friends--bookmark">
+      <header class="friends--by">
+        <a href="profile.html">
+          <img src="images\sube.JPG" />
+          <span class="friends--by__title">전수범</span>
+        </a>
+      </header>
+      <section class="friends__bookmark">
         <span class="friends-header-name">즐겨찾기</span>
         <div class="friends__rows">
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\don.jpg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Don Quijote</span>
                 <span class="friends__tagline"
                   >To attain the impossible, one must attempt the absurd</span
@@ -43,15 +54,16 @@
               </div>
             </div>
             <div class="friends__song">
-              <span class="song__name">
-                Ship And The Globe <i class="fa fa-caret-right"></i>
+              <span class="song__name"> Ship And The Globe </span>
+              <span class="song__icon">
+                <i class="fa fa-caret-right"></i>
               </span>
             </div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\paul.png" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Paul Valey</span>
                 <span class="friends__tagline"
                   >If you don't live the way you think, you'll think the way you
@@ -59,12 +71,11 @@
                 >
               </div>
             </div>
-            <div class="friends__song"></div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\henry.jpeg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Henry Ford</span>
                 <span class="friends__tagline"
                   >Whether you think you can or think you can't you're
@@ -72,26 +83,26 @@
                 >
               </div>
             </div>
-            <div class="friends__song"></div>
           </div>
         </div>
       </section>
-      <section class="friends--recommended">
+      <section class="friends__recommended">
         <span class="friends-header-name">추천친구</span>
-        <div class="recommended__row">
-          <div class="recommended__column">
-            <img src="" alt="" /> <span>새로운 친구를 만나보세요!</span>
+        <div class="friends__row">
+          <div class="friends__columns">
+            <img src="images\add.jpg" alt="" />
+            <span class="friends__name">새로운 친구를 만나보세요!</span>
           </div>
-          <span>1 ></span>
+          <span class="recommended__number">1 ></span>
         </div>
       </section>
-      <section class="friends--total">
+      <section class="friends__total">
         <span class="friends-header-name">친구들</span>
         <div class="friends__rows">
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\steve.jpg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Steve Jobs</span>
                 <span class="friends__tagline"
                   >Don't waste your time living someone else's life</span
@@ -99,15 +110,14 @@
               </div>
             </div>
             <div class="friends__song">
-              <span class="song__name">
-                Kick Ass <i class="fa fa-caret-right"></i>
-              </span>
+              <span class="song__name"> Kick Ass </span>
+              <span class="song__icon"><i class="fa fa-caret-right"></i></span>
             </div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\don.jpg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Don Quijote</span>
                 <span class="friends__tagline"
                   >To attain the impossible, one must attempt the absurd</span
@@ -115,15 +125,14 @@
               </div>
             </div>
             <div class="friends__song">
-              <span class="song__name">
-                Ship And The Globe <i class="fa fa-caret-right"></i>
-              </span>
+              <span class="song__name"> Ship And The Globe </span>
+              <span class="song__icon"><i class="fa fa-caret-right"></i></span>
             </div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\paul.png" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Paul Valey</span>
                 <span class="friends__tagline"
                   >If you don't live the way you think, you'll think the way you
@@ -131,12 +140,11 @@
                 >
               </div>
             </div>
-            <div class="friends__song"></div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\henry.jpeg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Henry Ford</span>
                 <span class="friends__tagline"
                   >Whether you think you can or think you can't you're
@@ -144,12 +152,11 @@
                 >
               </div>
             </div>
-            <div class="friends__song"></div>
           </div>
           <div class="friends__row">
             <div class="friends__columns">
-              <img src="" alt="" />
-              <div class="column">
+              <img src="images\win.jpg" alt="" />
+              <div class="friends__column">
                 <span class="friends__name">Winston Churchill</span>
                 <span class="friends__tagline"
                   >If you're going through hell, keep going</span
@@ -157,9 +164,8 @@
               </div>
             </div>
             <div class="friends__song">
-              <span class="song__name">
-                Wake Up <i class="fa fa-caret-right"></i>
-              </span>
+              <span class="song__name"> Wake Up </span>
+              <span class="song__icon"><i class="fa fa-caret-right"></i></span>
             </div>
           </div>
         </div>
@@ -167,9 +173,10 @@
     </main>
     <nav class="screen-nav">
       <div class="nav__icons">
-        <i class="fa fa-user nav__icons--selected"></i>
-        <i class="fa fa-comment"></i> <i class="fa fa-hashtag"></i>
-        <i class="fa fa-ellipsis-h"></i>
+        <a href="index.html"><i class="fa fa-user nav__icons--selected"></i></a>
+        <a href="chats.html"><i class="fa fa-comment"></i></a>
+        <a href="feed.html"><i class="fa fa-hashtag"></i></a>
+        <a href="more.html"><i class="fa fa-ellipsis-h"></i></a>
       </div>
     </nav>
   </body>

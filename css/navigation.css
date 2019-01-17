@@ -1,0 +1,19 @@
+.screen-nav .nav__icons {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  border-top: 1px solid rgba(198, 198, 198, 0.5);
+}
+
+.nav__icons i {
+  font-size: 25px;
+  padding: 15px 60px;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.nav__icons .nav__icons--selected {
+  color: black;
+}

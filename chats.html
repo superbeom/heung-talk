@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Chats</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css\style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet" />
+    <title>Chats</title>
   </head>
   <body>
     <header class="screen-header">
@@ -20,13 +21,17 @@
         <span>10:38</span>
       </div>
       <div class="header-bottom">
-        <div class="header-column"><span>채팅</span></div>
         <div class="header-column">
-          <i class="fa fa-search"></i>
-          <div class="comment-plus">
-            <i class="fa fa-comment-o"></i> <i class="fa fa-plus"></i>
+          <span class="header-bottom__title">채팅</span>
+        </div>
+        <div class="header-column">
+          <div class="header-column__icon"><i class="fa fa-search"></i></div>
+          <div class="header-column__icon">
+            <div class="comment-plus">
+              <i class="fa fa-comment-o"></i> <i class="fa fa-plus"></i>
+            </div>
           </div>
-          <i class="fa fa-cog"></i>
+          <div class="header-column__icon"><i class="fa fa-cog"></i></div>
         </div>
       </div>
     </header>
@@ -71,9 +76,12 @@
     </main>
     <nav class="screen-nav">
       <div class="nav__icons">
-        <i class="fa fa-user nav__icons--selected"></i>
-        <i class="fa fa-comment"></i> <i class="fa fa-hashtag"></i>
-        <i class="fa fa-ellipsis-h"></i>
+        <a href="index.html"><i class="fa fa-user"></i></a>
+        <a href="chats.html"
+          ><i class="fa fa-comment nav__icons--selected"></i
+        ></a>
+        <a href="feed.html"><i class="fa fa-hashtag"></i></a>
+        <a href="more.html"><i class="fa fa-ellipsis-h"></i></a>
       </div>
     </nav>
   </body>
