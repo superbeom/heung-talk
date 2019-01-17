@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Feed</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="screen-header">
+      <div class="header-top">
+        <i class="fa fa-clock-o"></i> <i class="fa fa-wifi"></i>
+        <i class="fa fa-signal"></i>
+        <span> 77% <i class="fa fa-battery-three-quarters"></i> </span>
+        <span>10:38</span>
+      </div>
+      <div class="header-bottom">
+        <span class="header-bottom__feed feed--selected">#뉴스</span>
+        <span class="header-bottom__feed">#FUN</span>
+        <span class="header-bottom__feed">#인물</span>
+        <span class="header-bottom__feed">#쇼핑</span>
+      </div>
+    </header>
+    <main class="feed">
+      <section class="feed__news">
+        <span class="feed_news--each"
+          >힘겹게 웃는 손흥민 "이런 패턴, 이제 적응.."</span
+        >
+        <span class="feed_news--each">'괴물'김민재, 중국전 평점 1위</span>
+        <span class="feed_news--each">최강희 감독, 톈진 구단으로부터..</span>
+        <span class="feed_news--each"
+          >호날두 "슈퍼컵은 시작..전관왕 원한다"</span
+        >
+      </section>
+      <section class="realtime-news">
+        <div class="realtime__column">
+          <div class="realtime__header">
+            <span class="realtime__text">실시간</span>
+          </div>
+          <div class="realtime__article">
+            <span class="realtime__rank">1</span>
+            <span class="realtime__article__name">흥도네 대박</span>
+          </div>
+        </div>
+        <div class="realtime__column">
+          <div class="realtime__arrow">
+            <span class="arrow_rank"><i class="fa fa-arrow-up"></i> 43</span>
+          </div>
+        </div>
+      </section>
+      <section class="image__news">
+        <div class="image__news--each">
+          <img src="" alt="" />
+          <span class="image__news--content"
+            >'알아서 주세요' 구자욱, 삼성에 연봉 백지 위임</span
+          >
+        </div>
+        <div class="image__news--each">
+          <img src="" alt="" />
+          <span class="image__news--content"
+            >2019년 삼성, 홈런과 함께 할 수 있을까</span
+          >
+        </div>
+      </section>
+      <section class="search-bar">
+        <div class="search__box">
+          <i class="fa fa-hashtag"></i>
+          <input type="text" placeholder="검색어를 입력해 주세요" />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="search__contents">
+          <div class="search__content">
+            <span class="search__content-title">#삼성 우승 전망</span>
+          </div>
+          <div class="search__content"></div>
+        </div>
+        <div class="search__content">
+          <span class="search__content-title">#2019 황금돼지</span>
+        </div>
+      </section>
+    </main>
+    <nav class="screen-nav">
+      <div class="nav__icons">
+        <i class="fa fa-user nav__icons--selected"></i>
+        <i class="fa fa-comment"></i> <i class="fa fa-hashtag"></i>
+        <i class="fa fa-ellipsis-h"></i>
+      </div>
+    </nav>
+  </body>
+</html>

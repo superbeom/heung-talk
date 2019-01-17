@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="screen-header">
+      <div class="header-top">
+        <i class="fa fa-clock-o"></i> <i class="fa fa-wifi"></i>
+        <i class="fa fa-signal"></i>
+        <span> 77% <i class="fa fa-battery-three-quarters"></i> </span>
+        <span>10:38</span>
+      </div>
+      <div class="header-bottom">
+        <div class="header-column">
+          <i class="fa fa-arrow-left"></i>
+          <span class="chat-title">Paul Valey</span>
+        </div>
+        <div class="header-column">
+          <i class="fa fa-search"></i> <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main class="chat">
+      <div class="chat__conversation chat--to-me">
+        <img src="" alt="" />
+        <div class="chat__other">
+          <span class="other-name">Paul Valey</span>
+          <div class="chat__content">
+            The best way to make your dreams come true is to wake up.
+          </div>
+        </div>
+        <span class="chat-time">05:19</span>
+      </div>
+      <div class="chat__conversation chat--from-me">
+        <span class="chat-time">05:46</span>
+        <div class="chat__content">Thanks for your comment!</div>
+      </div>
+    </main>
+    <section class="chat__input">
+      <i class="fa fa-plus-square-o"></i>
+      <input type="text" placeholder="내용을 입력해 주세요:)" />
+      <i class="fa fa-smile-o"></i> <i class="fa fa-hashtag"></i>
+    </section>
+  </body>
+</html>
